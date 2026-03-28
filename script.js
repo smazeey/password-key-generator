@@ -29,6 +29,6 @@ let  password="";
 
 copyBtn.addEventlistener("click", () => {
 passwordInput.select ();
-document.execCommand("copy");
+document.getElementById("copy");
 alert("password copied!.");
 });
